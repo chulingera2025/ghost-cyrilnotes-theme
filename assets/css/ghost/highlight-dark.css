@@ -1,0 +1,105 @@
+/* Light mode code highlight overrides */
+.theme-light .hljs {
+    color: #24292e;
+    background: transparent;
+}
+
+.theme-light .hljs-keyword,
+.theme-light .hljs-selector-tag,
+.theme-light .hljs-literal,
+.theme-light .hljs-doctag,
+.theme-light .hljs-type,
+.theme-light .hljs-name,
+.theme-light .hljs-strong {
+    color: #d73a49;
+}
+
+.theme-light .hljs-string,
+.theme-light .hljs-title,
+.theme-light .hljs-attr,
+.theme-light .hljs-built_in,
+.theme-light .hljs-addition,
+.theme-light .hljs-template-tag {
+    color: #032f62;
+}
+
+.theme-light .hljs-comment,
+.theme-light .hljs-quote,
+.theme-light .hljs-deletion,
+.theme-light .hljs-meta {
+    color: #6a737d;
+}
+
+.theme-light .hljs-number,
+.theme-light .hljs-regexp,
+.theme-light .hljs-selector-id,
+.theme-light .hljs-selector-class {
+    color: #005cc5;
+}
+
+.theme-light .hljs-variable,
+.theme-light .hljs-template-variable,
+.theme-light .hljs-attribute,
+.theme-light .hljs-symbol,
+.theme-light .hljs-bullet {
+    color: #e36209;
+}
+
+.theme-light .hljs-emphasis {
+    color: #24292e;
+    font-style: italic;
+}
+
+.theme-light .hljs-tag {
+    color: #22863a;
+}
+
+@media (prefers-color-scheme: light) {
+    html:not(.theme-dark) .hljs {
+        color: #24292e;
+        background: transparent;
+    }
+    html:not(.theme-dark) .hljs-keyword,
+    html:not(.theme-dark) .hljs-selector-tag,
+    html:not(.theme-dark) .hljs-literal,
+    html:not(.theme-dark) .hljs-doctag,
+    html:not(.theme-dark) .hljs-type,
+    html:not(.theme-dark) .hljs-name,
+    html:not(.theme-dark) .hljs-strong {
+        color: #d73a49;
+    }
+    html:not(.theme-dark) .hljs-string,
+    html:not(.theme-dark) .hljs-title,
+    html:not(.theme-dark) .hljs-attr,
+    html:not(.theme-dark) .hljs-built_in,
+    html:not(.theme-dark) .hljs-addition,
+    html:not(.theme-dark) .hljs-template-tag {
+        color: #032f62;
+    }
+    html:not(.theme-dark) .hljs-comment,
+    html:not(.theme-dark) .hljs-quote,
+    html:not(.theme-dark) .hljs-deletion,
+    html:not(.theme-dark) .hljs-meta {
+        color: #6a737d;
+    }
+    html:not(.theme-dark) .hljs-number,
+    html:not(.theme-dark) .hljs-regexp,
+    html:not(.theme-dark) .hljs-selector-id,
+    html:not(.theme-dark) .hljs-selector-class {
+        color: #005cc5;
+    }
+    html:not(.theme-dark) .hljs-variable,
+    html:not(.theme-dark) .hljs-template-variable,
+    html:not(.theme-dark) .hljs-attribute,
+    html:not(.theme-dark) .hljs-symbol,
+    html:not(.theme-dark) .hljs-bullet {
+        color: #e36209;
+    }
+    html:not(.theme-dark) .hljs-emphasis {
+        color: #24292e;
+        font-style: italic;
+    }
+    html:not(.theme-dark) .hljs-tag {
+        color: #22863a;
+    }
+}

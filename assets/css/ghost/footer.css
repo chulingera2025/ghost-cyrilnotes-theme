@@ -1,0 +1,95 @@
+/* Global Footer
+/* ---------------------------------------------------------- */
+
+.gh-foot {
+    padding: calc(8rem + 4vw) 0 6rem;
+    margin-top: auto;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: var(--color-content-secondary);
+    background: var(--color-background-secondary);
+}
+
+.gh-foot .gh-container {
+    max-width: none;
+    padding: 0 8rem;
+}
+
+.gh-foot-nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 4rem;
+}
+
+.gh-foot-copy {
+    flex: 1;
+    text-align: left;
+}
+
+.gh-foot-center {
+    flex: 1;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.gh-foot-publish {
+    flex: 1;
+    text-align: right;
+}
+
+.gh-foot a {
+    color: var(--color-content-secondary);
+    text-decoration: none;
+    transition: color 0.1s ease;
+}
+
+.gh-foot a:hover {
+    color: var(--color-content-main);
+}
+
+.gh-foot ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 3rem;
+}
+
+.gh-foot li {
+    position: relative;
+}
+
+.gh-foot li.active {
+    font-weight: 600;
+}
+
+.gh-foot li.active a {
+    color: var(--color-content-main);
+}
+
+.gh-foot li a {
+    display: block;
+    white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+    .gh-foot-nav {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .gh-foot-copy,
+    .gh-foot-center,
+    .gh-foot-publish {
+        flex: none;
+        text-align: center;
+    }
+    .gh-foot ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}

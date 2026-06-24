@@ -1,0 +1,14 @@
+{{!--
+Re-usable card for linking to posts (two-column grid)
+--}}
+
+<article class="gh-card {{post_class}}">
+    <a class="gh-card-link" href="{{url}}">
+        <div class="gh-card-content">
+            <span class="gh-card-meta"><time datetime="{{date format="YYYY-MM-DD"}}">{{date format="D MMM YYYY"}}</time> <span class="bull">&bull;</span> {{reading_time}}</span>
+            <h2 class="gh-card-title">{{title}}</h2>
+            <p>{{excerpt}}</p>
+            <strong>Read more</strong>
+        </div>
+    </a>
+</article>
